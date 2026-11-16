@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.png" alt="EdgeAtten" width="100%"></p>
+
 # EdgeAtten
 
 Semester 5 IoT project at Bennett University: a study of multi-stage attention for securing condition-based monitoring in Industrial IoT, run at the edge.
@@ -59,4 +61,8 @@ T. Schneider, S. Klein, M. Bastuck, "Condition monitoring of hydraulic systems D
 6. "DyEdgeGAT: Dynamic Edge via Graph Attention for Early Fault Detection in IIoT Systems."
 7. Vaswani et al., "Attention Is All You Need," NeurIPS 2017.
 
-The full deck is in `docs/EdgeAtten_presentation.pptx`.
+The full deck is in [docs/EdgeAtten_presentation.pdf](docs/EdgeAtten_presentation.pdf), which opens right on GitHub. The editable PowerPoint is next to it.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
