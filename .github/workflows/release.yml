@@ -1,0 +1,17 @@
+name: release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  deck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: gh release upload "${{ github.event.release.tag_name }}" docs/EdgeAtten_presentation.pdf --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}
